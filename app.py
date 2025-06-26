@@ -1,2 +1,3 @@
 import flask
-print(flask.__version__)
+import importlib.metadata
+print(importlib.metadata.version('flask'))
